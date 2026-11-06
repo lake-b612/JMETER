@@ -1,0 +1,36 @@
+# ===== JMeter 本地运行产物 =====
+jmeter.log
+*.jtl
+*.csv.bak
+*.jmx.bak
+results/
+report/
+
+# ===== 操作系统垃圾文件 =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# ===== Python / 环境（如用脚本辅助） =====
+__pycache__/
+venv/
+.venv/
+.env
